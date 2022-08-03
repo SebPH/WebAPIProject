@@ -7,6 +7,6 @@ namespace Catalog.Models
         public Guid Id { get; set; }
         public string Name { get; set; }
         public decimal Price { get; set; }
-        public DateTimeOffset DateCreated { get; set; }
+        public DateTimeOffset CreateTime { get; set; }
     }
 }
